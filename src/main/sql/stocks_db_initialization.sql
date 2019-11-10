@@ -29,10 +29,10 @@ CREATE TABLE stocks.person_quote
 );
 
 
-INSERT INTO stocks.quotes (symbol,time,price) VALUES ('GOOG','2019-08-19 00:00:01','85.00');
-INSERT INTO stocks.quotes (symbol,time,price) VALUES ('GOOG','2019-02-03 00:00:01','527.35');
-INSERT INTO stocks.quotes (symbol,time,price) VALUES ('APPL','2019-01-01 00:00:01','118.27');
-INSERT INTO stocks.quotes (symbol,time,price) VALUES ('AMZN','2019-02-03 00:00:01','363.21');
+INSERT INTO stocks.quotes (symbol,time,price) VALUES ('GOOG','2019-08-19 00:00:00','85.00');
+INSERT INTO stocks.quotes (symbol,time,price) VALUES ('GOOG','2019-02-03 00:00:00','527.35');
+INSERT INTO stocks.quotes (symbol,time,price) VALUES ('APPL','2019-01-01 00:00:00','118.27');
+INSERT INTO stocks.quotes (symbol,time,price) VALUES ('AMZN','2019-02-03 00:00:00','363.21');
 
 INSERT INTO stocks.person (first_name, last_name, birth_date) value ('Sundar', 'Pichai', '1972-6-10');
 INSERT INTO stocks.person (first_name, last_name, birth_date) value ('Tim', 'Cook', '1960-11-1');

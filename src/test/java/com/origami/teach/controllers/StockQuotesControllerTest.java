@@ -43,7 +43,7 @@ public class StockQuotesControllerTest {
     @Test
     public void getStockQuotes() throws Exception {
         String url = "/api/StockQuotes/GetStockQuotes?symbol=GOOG&from=2019-01-01&until=2019-12-31";
-        String expectedResult = "[{\"id\":1,\"price\":85.00,\"date\":\"2019-08-19T00:00:00.000+0000\",\"symbol\":\"GOOG\"},{\"id\":2,\"price\":527.35,\"date\":\"2019-02-03T00:00:00.000+0000\",\"symbol\":\"GOOG\"}]";
+        String expectedResult = "[{\"id\":1,\"price\":85.00,\"date\":\"2019-08-19T04:00:00.000+0000\",\"symbol\":\"GOOG\"},{\"id\":2,\"price\":527.35,\"date\":\"2019-02-03T05:00:00.000+0000\",\"symbol\":\"GOOG\"}]";
 
         mvc.perform(MockMvcRequestBuilders.get(url)
             .accept(MediaType.APPLICATION_JSON))

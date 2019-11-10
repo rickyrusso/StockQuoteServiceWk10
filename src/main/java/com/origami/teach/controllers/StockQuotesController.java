@@ -43,6 +43,7 @@ public class StockQuotesController {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = simpleDateFormat.parse(strDate);
         Calendar cal = Calendar.getInstance();
+        cal.set(0,0,0,0,0,0);
         cal.setTime(date);
         return cal;
     }
